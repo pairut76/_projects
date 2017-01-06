@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/darkmaze/Direction.hpp
+
+../include/darkmaze/Maze.hpp
+ics46/observable/Observable.hpp
+-
+Direction.hpp
+../include/darkmaze/Direction.hpp
+
+../include/darkui/DarkApplication.hpp
+
+../include/ics46/observable/Observable.hpp
+algorithm
+-
+functional
+-
+memory
+-
+vector
+-
+
+/home/ics46/projects/amazing/app/main.cpp
+iostream
+-
+DarkApplication.hpp
+/home/ics46/projects/amazing/app/DarkApplication.hpp
+Maze.hpp
+/home/ics46/projects/amazing/app/Maze.hpp
+
